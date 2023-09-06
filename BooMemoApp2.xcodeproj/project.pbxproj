@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F81DC1DA2A97CB1700C9AA0D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81DC1D92A97CB1700C9AA0D /* DetailView.swift */; };
-		F82FE52B2AA310C600535AA1 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82FE52A2AA310C600535AA1 /* LogInView.swift */; };
 		F8386BD62A97A95F0034CD45 /* BooMemoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8386BD52A97A95F0034CD45 /* BooMemoAppApp.swift */; };
 		F8386BDA2A97A9610034CD45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8386BD92A97A9610034CD45 /* Assets.xcassets */; };
 		F8386BDD2A97A9610034CD45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8386BDC2A97A9610034CD45 /* Preview Assets.xcassets */; };
@@ -23,7 +22,6 @@
 
 /* Begin PBXFileReference section */
 		F81DC1D92A97CB1700C9AA0D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
-		F82FE52A2AA310C600535AA1 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
 		F8386BD22A97A95F0034CD45 /* BooMemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BooMemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8386BD52A97A95F0034CD45 /* BooMemoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooMemoAppApp.swift; sourceTree = "<group>"; };
 		F8386BD92A97A9610034CD45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -106,7 +104,6 @@
 		F8386BF22A97BE6A0034CD45 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F82FE52A2AA310C600535AA1 /* LogInView.swift */,
 				F8386BF32A97BE940034CD45 /* MemoCell.swift */,
 				F8386BE82A97A9F80034CD45 /* MainListView.swift */,
 				F8386BF52A97BF540034CD45 /* ComposeView.swift */,
@@ -150,7 +147,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F8386BCD2A97A95F0034CD45 /* Build configuration list for PBXProject "Boo" */;
+			buildConfigurationList = F8386BCD2A97A95F0034CD45 /* Build configuration list for PBXProject "BooMemoApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -185,7 +182,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F82FE52B2AA310C600535AA1 /* LogInView.swift in Sources */,
 				F8386BF42A97BE940034CD45 /* MemoCell.swift in Sources */,
 				F81DC1DA2A97CB1700C9AA0D /* DetailView.swift in Sources */,
 				F8386BDF2A97A9610034CD45 /* Persistence.swift in Sources */,
@@ -326,7 +322,6 @@
 				DEVELOPMENT_TEAM = 9JJUHNPB98;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Boo;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -356,7 +351,6 @@
 				DEVELOPMENT_TEAM = 9JJUHNPB98;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Boo;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -378,7 +372,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F8386BCD2A97A95F0034CD45 /* Build configuration list for PBXProject "Boo" */ = {
+		F8386BCD2A97A95F0034CD45 /* Build configuration list for PBXProject "BooMemoApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8386BE32A97A9610034CD45 /* Debug */,
